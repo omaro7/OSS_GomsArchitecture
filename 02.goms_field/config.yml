@@ -1,0 +1,29 @@
+workspace:
+  path: D:\08.SpringBoot\02.workspace\goms\src\main
+  defaultPackage: kr.co.goms.web.oss
+  targetPackage: biz
+  category: field
+entity:
+  table: goms_field
+  colume:
+    - name: field_idx
+      type: Long
+      alias: fieldIdx
+    - name: mb_Idx
+      type: int
+      alias: mbIdx
+    - name: group_idx
+      type: int
+      alias: groupIdx
+    - name: field_title
+      type: String
+      alias: fieldTitle
+    - name: field_local
+      type: String
+      alias: fieldLocal
+    - name: useflag
+      type: Boolean
+      alias: useflag
+    - name: regdate
+      type: String
+      alias: regdate

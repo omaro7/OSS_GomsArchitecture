@@ -1,0 +1,20 @@
+workspace:
+  path: D:\08.SpringBoot\02.workspace\goms\src\main
+  defaultPackage: kr.co.goms.web.oss
+  targetPackage: biz
+  category: company
+entity:
+  table: company
+  colume:
+    - name: com_idx
+      type: Long
+      alias: comIdx
+    - name: com_name
+      type: String
+      alias: comName
+    - name: useflag
+      type: Boolean
+      alias: useflag
+    - name: regdate
+      type: String
+      alias: regdate

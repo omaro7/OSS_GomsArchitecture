@@ -1,0 +1,194 @@
+workspace:
+  path: D:\08.SpringBoot\02.workspace\goms\src\main
+  defaultPackage: kr.co.goms.web.oss
+  targetPackage: biz
+  category: field_detail
+entity:
+  table: goms_field_detail
+  colume:
+    - name: field_detail_idx
+      type: Long
+      alias: fieldDetailIdx
+    - name: field_idx
+      type: Long
+      alias: fieldIdx
+    - name: mb_Idx
+      type: int
+      alias: mbIdx
+    - name: field_code
+      type: int
+      alias: fieldCode
+    - name: field_date
+      type: String
+      alias: fieldDate
+    - name: field_coordinate
+      type: String
+      alias: fieldCoordinate
+    - name: field_address
+      type: String
+      alias: fieldAddress
+    - name: mh_depth
+      type: String
+      alias: mhDepth
+    - name: mh_inflow
+      type: String
+      alias: mhInflow
+    - name: mh_outflow
+      type: String
+      alias: mhOutflow
+    - name: mh_drainage
+      type: String
+      alias: mhDrainage
+    - name: mh_standard
+      type: String
+      alias: mhStandard
+    - name: mh_material
+      type: String
+      alias: mhMaterial
+    - name: mh_size
+      type: String
+      alias: mhSize
+    - name: mh_lid_damage_yn
+      type: String
+      alias: mhLidDamageYn
+    - name: mh_lid_crack_yn
+      type: String
+      alias: mhLidCrackYn
+    - name: mh_lid_water_lms
+      type: String
+      alias: mhLidWaterLms
+    - name: mh_lid_damage_lms
+      type: String
+      alias: mhLidDamageLms
+    - name: mh_lid_crack_lms
+      type: String
+      alias: mhLidCrackLms
+    - name: mh_outer_damage_yn
+      type: String
+      alias: mhOuterDamageYn
+    - name: mh_outer_crack_yn
+      type: String
+      alias: mhOuterCrackYn
+    - name: mh_outer_water_lms
+      type: String
+      alias: mhOuterWaterLms
+    - name: mh_outer_damage_lms
+      type: String
+      alias: mhOuterDamageLms
+    - name: mh_outer_crack_lms
+      type: String
+      alias: mhOuterCrackLms
+    - name: mh_inner_damage_yn
+      type: String
+      alias: mhInnerDamageYn
+    - name: mh_inner_crack_yn
+      type: String
+      alias: mhInnerCrackYn
+    - name: mh_inner_water_lms
+      type: String
+      alias: mhInnerWaterLms
+    - name: mh_inner_damage_lms
+      type: String
+      alias: mhInnerDamageLms
+    - name: mh_inner_crack_lms
+      type: String
+      alias: mhInnerCrackLms
+    - name: mh_pipe_damage_yn
+      type: String
+      alias: mhPipeDamageYn
+    - name: mh_pipe_crack_yn
+      type: String
+      alias: mhPipeCrackYn
+    - name: mh_pipe_damage_lms
+      type: String
+      alias: mhPipeDamageLms
+    - name: mh_pipe_crack_lms
+      type: String
+      alias: mhPipeCrackLms
+    - name: mh_pipe_water_lms
+      type: String
+      alias: mhPipeWaterLms
+    - name: mh_ladder_yn
+      type: String
+      alias: mhLadderYn
+    - name: mh_invert_yn
+      type: String
+      alias: mhInvertYn
+    - name: mh_odor_glms
+      type: String
+      alias: mhOdorGlms
+    - name: mh_lid_sealing_yn
+      type: String
+      alias: mhLidSealingYn
+    - name: mh_block_gap_lms
+      type: String
+      alias: mhBlockGapLms
+    - name: mh_block_damage_lms
+      type: String
+      alias: mhBlockDamageLms
+    - name: mh_block_leave_lms
+      type: String
+      alias: mhBlockLeaveLms
+    - name: mh_surface_gap_lms
+      type: String
+      alias: mhSurfaceGapLms
+    - name: mh_ladder_damage_lms
+      type: String
+      alias: mhLadderDamageLms
+    - name: mh_endothelium_lms
+      type: String
+      alias: mhEndotheliumLms
+    - name: mh_wasteoil_lms
+      type: String
+      alias: mhWasteoilLms
+    - name: mh_temp_obstacle_glms
+      type: String
+      alias: mhTempObstacleGlms
+    - name: mh_root_intrusion_glms
+      type: String
+      alias: mhRootIntrusionGlms
+    - name: mh_cad
+      type: String
+      alias: mhCad
+    - name: mh_photo_around
+      type: String
+      alias: mhPhotoAround
+    - name: mh_photo_outer
+      type: String
+      alias: mhPhotoOuter
+    - name: mh_photo_inner
+      type: String
+      alias: mhPhotoInner
+    - name: mh_photo_etc
+      type: String
+      alias: mhPhotoEtc
+    - name: mh_remark
+      type: String
+      alias: mhRemark
+    - name: mh_local_sp
+      type: String
+      alias: mhLocalSp
+    - name: mh_local_ep
+      type: String
+      alias: mhLocalEp
+    - name: mh_local_species
+      type: String
+      alias: mhLocalSpecies
+    - name: mh_local_circumference
+      type: String
+      alias: mhLocalCircumference
+    - name: mh_local_extension
+      type: String
+      alias: mhLocalExtension
+    - name: mh_local_bigo
+      type: String
+      alias: mhLocal_bigo
+    - name: mh_buried_yn
+      type: String
+      alias: mhBuriedYn
+    - name: useflag
+      type: Boolean
+      alias: useflag
+    - name: regdate
+      type: String
+      alias: regdate

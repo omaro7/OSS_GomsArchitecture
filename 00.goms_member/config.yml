@@ -1,0 +1,26 @@
+workspace:
+  path: D:\08.SpringBoot\02.workspace\goms\src\main
+  defaultPackage: kr.co.goms.web.oss
+  targetPackage: biz
+  category: member
+entity:
+  table: member
+  colume:
+    - name: mb_idx
+      type: Long
+      alias: mbIdx
+    - name: mb_Id
+      type: String
+      alias: mbId
+    - name: mb_pwd
+      type: String
+      alias: mbPwd
+    - name: mb_name
+      type: String
+      alias: mbName
+    - name: mb_role
+      type: String
+      alias: mbRole
+    - name: regdate
+      type: String
+      alias: regdate
