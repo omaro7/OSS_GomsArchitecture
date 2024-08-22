@@ -7,9 +7,11 @@
  2)Config File >>>> config.yml
  3)Read Yaml py >>>> read_yaml.py
 
-2.실행
- 각 폴더의 {폴더}_ALL2.bat 실행
+Python 실행환경 필요!!!
 
+2.실행
+ 1)각 폴더의 {폴더}_ALL2.bat 실행
+ 
 3.생성
  1)controller
  2)domain
